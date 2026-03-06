@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  margin: 0;
+  background: radial-gradient(circle at top left, #17243e 0%, #0b0f14 35%, #090d13 100%);
+  color: #e8eef8;
+  min-height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.terminal-scroll {
+  scrollbar-width: thin;
+}
